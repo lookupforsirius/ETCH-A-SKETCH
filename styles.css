@@ -1,0 +1,37 @@
+body{
+  background-image:url("http://www.talencia.cat/mypics/max/1/16860_no-copyright-background.jpg");
+}
+button{
+  border-radius: 20px;
+  background-color: #7F1C25;
+  font-size: 1.1em;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  padding: 1px 1px;
+  font-family: 'futura', 'Century Gothic', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding: 0;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+.grid-item {
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border: 1px solid  hsla(359, 3%, 18%, 1);
+  padding: 0;/*In the future this will change with the js to (100/sizeOfTheSquare)%*/
+
+  }
+
+#gridDivision {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr); /*The 16 will be the sizeOfTheSquare*/
+  grid-template-rows: repeat(16, 1fr); /*The 16 will be the sizeOfTheSquare*/
+  padding: 0;
+  width: 500px;
+  height: 500px;
+  }
+  #containerGrid{
+    width: 500px;
+    height: 500px;
+  }
